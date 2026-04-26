@@ -4,7 +4,7 @@ const benefits = [
   { icon: 'bi-bar-chart-line-fill', title: 'Reportes en tiempo real', text: 'Dashboards con ventas, márgenes y productos más vendidos. Exporta a Excel o PDF en segundos.' },
   { icon: 'bi-people-fill', title: 'CRM de clientes', text: 'Historial de compras, programas de fidelidad y envío de promociones. Segmentación automática de tu base de clientes.' },
   { icon: 'bi-receipt-cutoff', title: 'Facturación electrónica', text: 'Boletas y facturas electrónicas integradas con el SII. Cumple con la normativa chilena sin complicaciones.' },
-  { icon: 'bi-cloud-check-fill', title: 'Acceso en la nube', text: 'Nexo funciona en la nube. Revisa el estado de tu negocio desde tu celular, tablet o computador, donde estés.' },
+  { icon: 'bi-cloud-check-fill', title: 'Acceso en la nube', text: 'Pos Comercio funciona en la nube. Revisa el estado de tu negocio desde tu celular, tablet o computador, donde estés.' },
 ]
 
 export default function Benefits() {
@@ -17,7 +17,7 @@ export default function Benefits() {
             Diseñado para crecer contigo
           </h2>
           <p className="section-sub">
-            Cada funcionalidad de Nexo está pensada para ahorrarte tiempo y ayudarte a vender más.
+            Cada funcionalidad de Pos Comercio está pensada para ahorrarte tiempo y ayudarte a vender más.
           </p>
         </div>
         <div className="benefits__grid">

@@ -1,6 +1,6 @@
 export default function StatsBand() {
   return (
-    <div className="stats-band section--alt" aria-label="Estadísticas de Nexo POS">
+    <div className="stats-band section--alt" aria-label="Estadísticas de Pos Comercio">
       <div className="container">
         <div className="stats-band__grid">
           <div className="stat-card reveal">

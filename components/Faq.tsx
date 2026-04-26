@@ -3,11 +3,11 @@
 import { useState } from 'react'
 
 const faqs = [
-  { q: '¿Necesito conocimientos técnicos para usar Nexo?', a: 'No. Nexo está diseñado para ser usado por cualquier persona, sin importar su nivel técnico. La configuración inicial la hacemos contigo en menos de 2 horas.' },
-  { q: '¿Funciona sin conexión a internet?', a: 'Sí. Nexo tiene modo offline para el punto de venta. Las ventas se sincronizan automáticamente cuando vuelves a conectarte.' },
+  { q: '¿Necesito conocimientos técnicos para usar Pos Comercio?', a: 'No. Pos Comercio está diseñado para ser usado por cualquier persona, sin importar su nivel técnico. La configuración inicial la hacemos contigo en menos de 2 horas.' },
+  { q: '¿Funciona sin conexión a internet?', a: 'Sí. Pos Comercio tiene modo offline para el punto de venta. Las ventas se sincronizan automáticamente cuando vuelves a conectarte.' },
   { q: '¿Incluye boleta y factura electrónica SII?', a: 'Sí. A partir del plan Básico puedes emitir boletas electrónicas. La factura electrónica está disponible desde el plan Pro.' },
   { q: '¿Qué pasa con mis datos si cancelo?', a: 'Tus datos son siempre tuyos. Puedes exportarlos en cualquier momento en formato Excel o CSV antes de cancelar.' },
-  { q: '¿Funciona con Transbank y MercadoPago?', a: 'Sí, Nexo se integra de forma nativa con Transbank (WebPay y débito), MercadoPago y Khipu. Sin comisiones adicionales de nuestra parte.' },
+  { q: '¿Funciona con Transbank y MercadoPago?', a: 'Sí, Pos Comercio se integra de forma nativa con Transbank (WebPay y débito), MercadoPago y Khipu. Sin comisiones adicionales de nuestra parte.' },
   { q: '¿Tienen soporte en español?', a: 'Sí, nuestro equipo es 100% chileno. Atendemos por chat, WhatsApp y teléfono en horario extendido de lunes a sábado.' },
   { q: '¿Cuántos usuarios puedo agregar?', a: 'El plan Básico incluye 1 usuario, el Pro hasta 5, y el Enterprise tiene usuarios ilimitados con roles y permisos personalizables.' },
   { q: '¿Pueden migrar mis datos desde otro sistema?', a: 'Sí. Nuestro equipo te ayuda a migrar tus productos, clientes e historial de ventas desde Excel u otros sistemas POS. El servicio es gratuito.' },

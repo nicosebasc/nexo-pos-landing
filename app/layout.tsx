@@ -12,11 +12,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Nexo — Sistema POS para Comercios en Chile',
-    template: '%s | Nexo POS',
+    default: 'Pos Comercio — Sistema POS para Comercios en Chile',
+    template: '%s | Pos Comercio',
   },
   description:
-    'Nexo simplifica la gestión de tu comercio: ventas, inventario, clientes y reportes en un solo lugar. Boleta electrónica SII, Transbank y MercadoPago incluidos. Diseñado para negocios chilenos.',
+    'Pos Comercio simplifica la gestión de tu comercio: ventas, inventario, clientes y reportes en un solo lugar. Boleta electrónica SII, Transbank y MercadoPago incluidos. Diseñado para negocios chilenos.',
   keywords: [
     'POS Chile',
     'punto de venta Chile',
@@ -27,16 +27,16 @@ export const metadata: Metadata = {
     'software comercio Chile',
     'gestión negocio',
   ],
-  authors: [{ name: 'Nexo SpA' }],
-  creator: 'Nexo SpA',
-  publisher: 'Nexo SpA',
+  authors: [{ name: 'Pos Comercio SpA' }],
+  creator: 'Pos Comercio SpA',
+  publisher: 'Pos Comercio SpA',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     locale: 'es_CL',
     url: SITE_URL,
-    siteName: 'Nexo POS',
-    title: 'Nexo — Sistema POS para Comercios en Chile',
+    siteName: 'Pos Comercio',
+    title: 'Pos Comercio — Sistema POS para Comercios en Chile',
     description:
       'Centraliza ventas, inventario y reportes en una plataforma POS diseñada para el comercio chileno. Boleta electrónica, Transbank y MercadoPago incluidos.',
     images: [
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
         url: '/assets/icon-192x192.png',
         width: 192,
         height: 192,
-        alt: 'Nexo POS — Sistema POS Chile',
+        alt: 'Pos Comercio — Sistema POS Chile',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'Nexo — Sistema POS para Comercios en Chile',
+    title: 'Pos Comercio — Sistema POS para Comercios en Chile',
     description: 'Centraliza ventas, inventario y reportes en una plataforma POS diseñada para el comercio chileno.',
     images: ['/assets/icon-192x192.png'],
   },
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
-  name: 'Nexo POS',
+  name: 'Pos Comercio',
   applicationCategory: 'BusinessApplication',
   operatingSystem: 'Web',
   inLanguage: 'es-CL',
@@ -84,7 +84,7 @@ const jsonLd = {
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Nexo SpA',
+    name: 'Pos Comercio SpA',
     url: SITE_URL,
     logo: { '@type': 'ImageObject', url: `${SITE_URL}/assets/icon-192x192.png` },
     address: { '@type': 'PostalAddress', addressCountry: 'CL', addressLocality: 'Santiago' },

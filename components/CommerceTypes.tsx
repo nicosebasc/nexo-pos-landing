@@ -6,7 +6,7 @@ const types = [
   { icon: 'bi-tools', name: 'Ferretería', desc: 'Catálogo extenso, búsqueda por código, cotizaciones y presupuestos.' },
   { icon: 'bi-capsule', name: 'Farmacia', desc: 'Control de lotes y vencimientos, recetas y despacho con trazabilidad.' },
   { icon: 'bi-truck', name: 'Distribuidora', desc: 'Pedidos por vendedor, rutas de reparto y crédito a clientes.' },
-  { icon: 'bi-three-dots', name: 'Otros rubros', desc: 'Gimnasios, veterinarias, cafeterías, talleres y más. Adaptamos Nexo.' },
+  { icon: 'bi-three-dots', name: 'Otros rubros', desc: 'Gimnasios, veterinarias, cafeterías, talleres y más. Adaptamos Pos Comercio.' },
 ]
 
 export default function CommerceTypes() {
@@ -14,12 +14,12 @@ export default function CommerceTypes() {
     <section className="section section--white" id="comercios" aria-labelledby="types-title">
       <div className="container">
         <div className="reveal">
-          <span className="section-tag"><i className="bi bi-shop" aria-hidden="true" /> ¿Para quién es Nexo?</span>
+          <span className="section-tag"><i className="bi bi-shop" aria-hidden="true" /> ¿Para quién es Pos Comercio?</span>
           <h2 id="types-title" className="section-heading" style={{ marginTop: '10px' }}>
             Para todo tipo de comercio
           </h2>
           <p className="section-sub">
-            Adaptamos Nexo a las necesidades específicas de tu negocio, sin importar el rubro.
+            Adaptamos Pos Comercio a las necesidades específicas de tu negocio, sin importar el rubro.
           </p>
         </div>
         <div className="types__grid">

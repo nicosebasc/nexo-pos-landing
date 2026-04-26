@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="footer__brand-icon">
                 <i className="bi bi-shop" style={{ color: '#fff', fontSize: '15px' }} aria-hidden="true" />
               </div>
-              <span className="footer__brand-name">Nexo</span>
+              <span className="footer__brand-name">Pos Comercio</span>
             </div>
             <div className="footer__brand-desc">
               Sistema de gestión POS para comercios en Chile. Simple, potente y hecho para crecer contigo.
@@ -28,7 +28,7 @@ export default function Footer() {
           <div>
             <div className="footer__col-title">Empresa</div>
             <ul className="footer__links">
-              <li><a href="#">Sobre Nexo</a></li>
+              <li><a href="#">Sobre Pos Comercio</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Trabaja con nosotros</a></li>
               <li><a href="#">Contacto</a></li>
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__bottom">
-          <div className="footer__copy">© 2025 Nexo SpA · Santiago, Chile</div>
+          <div className="footer__copy">© 2025 Pos Comercio SpA · Santiago, Chile</div>
           <div className="footer__legal">
             <a href="#">Términos de uso</a>
             <a href="#">Privacidad</a>

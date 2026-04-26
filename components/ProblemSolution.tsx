@@ -42,7 +42,7 @@ export default function ProblemSolution() {
               <span className="section-tag"><i className="bi bi-check-circle" aria-hidden="true" /> La solución</span>
               <div className="sol-title">Todo en un solo lugar, desde el primer día.</div>
               <div className="sol-sub">
-                Nexo conecta todas las piezas de tu negocio en una plataforma simple, sin conocimientos técnicos
+                Pos Comercio conecta todas las piezas de tu negocio en una plataforma simple, sin conocimientos técnicos
                 y con soporte en español.
               </div>
               <div className="sol-items">

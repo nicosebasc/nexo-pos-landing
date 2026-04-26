@@ -1,6 +1,6 @@
 const testimonials = [
   {
-    quote: '"Desde que usamos Nexo, tenemos control total del inventario. Antes perdíamos ventas por no saber qué había en bodega. Ahora todo está en tiempo real."',
+    quote: '"Desde que usamos Pos Comercio, tenemos control total del inventario. Antes perdíamos ventas por no saber qué había en bodega. Ahora todo está en tiempo real."',
     name: 'Camila Martínez',
     role: 'Dueña — Boutique Camila, Las Condes',
     initials: 'CM',

@@ -5,9 +5,9 @@ export default function Nav() {
     <nav className="nav" id="mainNav" aria-label="Navegación principal">
       <div className="container">
         <div className="nav__inner">
-          <a href="#" className="nav__logo" aria-label="Nexo POS inicio">
+          <a href="#" className="nav__logo" aria-label="Pos Comercio inicio">
             <div className="nav__logo-icon"><i className="bi bi-shop" aria-hidden="true" /></div>
-            Nexo
+            Pos Comercio
           </a>
           <ul className="nav__links">
             <li><a href="#beneficios">Beneficios</a></li>

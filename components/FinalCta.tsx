@@ -13,7 +13,7 @@ export default function FinalCta() {
             Empieza a ordenar<br />tu negocio hoy.
           </h2>
           <p className="final-cta__sub reveal d2">
-            14 días gratis, sin compromiso. Más de 2.800 comercios en Chile ya confían en Nexo.
+            14 días gratis, sin compromiso. Más de 2.800 comercios en Chile ya confían en Pos Comercio.
           </p>
           <div className="final-cta__actions reveal d3">
             <a href={REGISTER_URL} className="btn btn-white btn-lg">

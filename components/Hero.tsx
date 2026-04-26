@@ -14,7 +14,7 @@ export default function Hero() {
               Tu comercio,<br /><em>ordenado y sin caos.</em>
             </h1>
             <p className="hero__sub reveal d2">
-              Nexo centraliza ventas, inventario, clientes y reportes en una sola plataforma POS.
+              Pos Comercio centraliza ventas, inventario, clientes y reportes en una sola plataforma POS.
               Boleta electrónica, Transbank y SII incluidos desde el primer día.
             </p>
             <div className="hero__actions reveal d3">
@@ -47,7 +47,7 @@ export default function Hero() {
             <div className="dash-frame">
               <div className="dash-topbar">
                 <div className="dot dot-r" /><div className="dot dot-y" /><div className="dot dot-g" />
-                <div className="dash-title">Nexo POS — Dashboard</div>
+                <div className="dash-title">Pos Comercio — Dashboard</div>
               </div>
               <div className="dash-body">
                 <div className="kpi-row">
