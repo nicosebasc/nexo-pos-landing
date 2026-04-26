@@ -1,4 +1,4 @@
-import { REGISTER_URL } from '@/lib/config'
+import { REGISTER_URL, LOGIN_URL } from '@/lib/config'
 
 export default function Nav() {
   return (
@@ -19,6 +19,9 @@ export default function Nav() {
           <div className="nav__actions">
             <a href="#precios" className="btn btn-outline-white" style={{ fontSize: '13px', padding: '.5rem 1.1rem' }}>
               Ver planes
+            </a>
+            <a href={LOGIN_URL} className="btn btn-outline-white" style={{ fontSize: '13px', padding: '.5rem 1.1rem' }}>
+              <i className="bi bi-person-fill" aria-hidden="true" /> Iniciar sesión
             </a>
             <a href={REGISTER_URL} className="btn btn-white" style={{ fontSize: '13px', padding: '.5rem 1.1rem' }}>
               <i className="bi bi-rocket-takeoff-fill" aria-hidden="true" /> Probar gratis
