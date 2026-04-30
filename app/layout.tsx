@@ -72,8 +72,8 @@ const jsonLd = {
   description:
     'Sistema POS para comercios en Chile. Ventas, inventario, boleta electrónica SII, Transbank y MercadoPago en una sola plataforma.',
   offers: [
-    { '@type': 'Offer', name: 'Básico', price: '19900', priceCurrency: 'CLP', priceValidUntil: '2026-12-31' },
-    { '@type': 'Offer', name: 'Pro', price: '39900', priceCurrency: 'CLP', priceValidUntil: '2026-12-31' },
+    { '@type': 'Offer', name: 'Básico', price: '19900', priceCurrency: 'CLP', priceValidUntil: '2027-12-31' },
+    { '@type': 'Offer', name: 'Pro', price: '39900', priceCurrency: 'CLP', priceValidUntil: '2027-12-31' },
   ],
   aggregateRating: {
     '@type': 'AggregateRating',

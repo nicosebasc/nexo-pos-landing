@@ -19,7 +19,7 @@ export default function FinalCta() {
             <a href={REGISTER_URL} className="btn btn-white btn-lg">
               <i className="bi bi-rocket-takeoff-fill" aria-hidden="true" /> Crear cuenta gratis
             </a>
-            <a href="mailto:hola@nexo.cl" className="btn btn-outline-white btn-lg">
+            <a href="mailto:contacto@pos-comercio.cl" className="btn btn-outline-white btn-lg">
               <i className="bi bi-telephone-fill" aria-hidden="true" /> Hablar con un asesor
             </a>
           </div>

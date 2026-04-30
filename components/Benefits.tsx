@@ -3,7 +3,7 @@ const benefits = [
   { icon: 'bi-box-seam-fill', title: 'Inventario inteligente', text: 'Alertas automáticas de stock bajo, historial de movimientos y órdenes de reposición con un solo clic.' },
   { icon: 'bi-bar-chart-line-fill', title: 'Reportes en tiempo real', text: 'Dashboards con ventas, márgenes y productos más vendidos. Exporta a Excel o PDF en segundos.' },
   { icon: 'bi-people-fill', title: 'CRM de clientes', text: 'Historial de compras, programas de fidelidad y envío de promociones. Segmentación automática de tu base de clientes.' },
-  { icon: 'bi-receipt-cutoff', title: 'Facturación electrónica', text: 'Boletas y facturas electrónicas integradas con el SII. Cumple con la normativa chilena sin complicaciones.' },
+  { icon: 'bi-receipt-cutoff', title: 'Boleta electrónica SII', text: 'Boletas electrónicas integradas con el SII. Cumple con la normativa chilena sin complicaciones. Factura electrónica próximamente.' },
   { icon: 'bi-cloud-check-fill', title: 'Acceso en la nube', text: 'Pos Comercio funciona en la nube. Revisa el estado de tu negocio desde tu celular, tablet o computador, donde estés.' },
 ]
 

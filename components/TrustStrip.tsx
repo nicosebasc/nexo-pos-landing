@@ -1,10 +1,8 @@
 const logos = [
   { icon: 'bi-bank', label: 'Transbank' },
   { icon: 'bi-file-earmark-text', label: 'SII' },
-  { icon: 'bi-receipt', label: 'Factura.cl' },
   { icon: 'bi-phone', label: 'MercadoPago' },
-  { icon: 'bi-shield-check', label: 'Khipu' },
-  { icon: 'bi-cloud', label: 'Bsale' },
+  { icon: 'bi-receipt-cutoff', label: 'Boleta electrónica' },
 ]
 
 export default function TrustStrip() {

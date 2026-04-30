@@ -7,7 +7,7 @@ const testimonials = [
     gradient: 'linear-gradient(45deg,#4723d9,#73b4ff)',
   },
   {
-    quote: '"La integración con Transbank y el SII nos ahorró semanas de trabajo. La factura electrónica sale automática y sin errores. El soporte es excelente."',
+    quote: '"La integración con Transbank y el SII nos ahorró semanas de trabajo. Las boletas salen automáticas y sin errores. El soporte es excelente."',
     name: 'Roberto Vargas',
     role: 'Administrador — Ferretería Vargas, Maipú',
     initials: 'RV',

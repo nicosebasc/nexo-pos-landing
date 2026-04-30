@@ -40,7 +40,7 @@ export default function Footer() {
               <li><a href="#">Centro de ayuda</a></li>
               <li><a href="#">Estado del sistema</a></li>
               <li><a href="#">API docs</a></li>
-              <li><a href="mailto:hola@nexo.cl">hola@nexo.cl</a></li>
+              <li><a href="mailto:contacto@pos-comercio.cl">contacto@pos-comercio.cl</a></li>
               <li>
                 <a href={REGISTER_URL} style={{ color: 'rgba(255,255,255,.5)', fontWeight: 600 }}>
                   Crear cuenta
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__bottom">
-          <div className="footer__copy">© 2025 Pos Comercio SpA · Santiago, Chile</div>
+          <div className="footer__copy">© 2026 Pos Comercio SpA · Santiago, Chile</div>
           <div className="footer__legal">
             <a href="#">Términos de uso</a>
             <a href="#">Privacidad</a>
