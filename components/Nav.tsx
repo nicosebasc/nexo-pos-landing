@@ -27,6 +27,28 @@ export default function Nav() {
               <i className="bi bi-rocket-takeoff-fill" aria-hidden="true" /> Probar gratis
             </a>
           </div>
+          <button className="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navDrawer">
+            <span className="nav__toggle-bar" />
+            <span className="nav__toggle-bar" />
+            <span className="nav__toggle-bar" />
+          </button>
+        </div>
+      </div>
+      <div className="nav__drawer" id="navDrawer" aria-hidden="true">
+        <ul className="nav__drawer-links">
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#comercios">Comercios</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div className="nav__drawer-actions">
+          <a href={LOGIN_URL} className="btn btn-outline-white" style={{ width: '100%', justifyContent: 'center' }}>
+            <i className="bi bi-person-fill" aria-hidden="true" /> Iniciar sesión
+          </a>
+          <a href={REGISTER_URL} className="btn btn-white" style={{ width: '100%', justifyContent: 'center' }}>
+            <i className="bi bi-rocket-takeoff-fill" aria-hidden="true" /> Probar gratis
+          </a>
         </div>
       </div>
     </nav>

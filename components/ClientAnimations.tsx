@@ -9,6 +9,32 @@ export default function ClientAnimations() {
     const onScroll = () => nav?.classList.toggle('scrolled', window.scrollY > 60)
     window.addEventListener('scroll', onScroll, { passive: true })
 
+    // Mobile menu toggle
+    const toggle = nav?.querySelector('.nav__toggle') as HTMLElement | null
+    const drawer = document.getElementById('navDrawer')
+
+    const closeMenu = () => {
+      nav?.classList.remove('nav--open')
+      toggle?.setAttribute('aria-expanded', 'false')
+      drawer?.setAttribute('aria-hidden', 'true')
+    }
+    const handleToggle = (e: Event) => {
+      e.stopPropagation()
+      const open = nav?.classList.toggle('nav--open') ?? false
+      toggle?.setAttribute('aria-expanded', open ? 'true' : 'false')
+      drawer?.setAttribute('aria-hidden', open ? 'false' : 'true')
+    }
+    const handleDocClick = (e: MouseEvent) => {
+      if (nav && !nav.contains(e.target as Node)) closeMenu()
+    }
+    const handleDrawerClick = (e: Event) => {
+      if ((e.target as HTMLElement).closest('a')) closeMenu()
+    }
+
+    toggle?.addEventListener('click', handleToggle)
+    drawer?.addEventListener('click', handleDrawerClick)
+    document.addEventListener('click', handleDocClick)
+
     // Reveal on scroll
     const revealObs = new IntersectionObserver(
       (entries) => entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add('visible') }),
@@ -45,6 +71,9 @@ export default function ClientAnimations() {
 
     return () => {
       window.removeEventListener('scroll', onScroll)
+      toggle?.removeEventListener('click', handleToggle)
+      drawer?.removeEventListener('click', handleDrawerClick)
+      document.removeEventListener('click', handleDocClick)
       revealObs.disconnect()
       countObs.disconnect()
     }
