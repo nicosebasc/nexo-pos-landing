@@ -28,18 +28,14 @@ export default function Footer() {
           <div>
             <div className="footer__col-title">Empresa</div>
             <ul className="footer__links">
-              <li><a href="#">Sobre Pos Comercio</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Trabaja con nosotros</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="mailto:contacto@pos-comercio.cl">Sobre Pos Comercio</a></li>
+              <li><a href="mailto:contacto@pos-comercio.cl">Contacto</a></li>
             </ul>
           </div>
           <div>
             <div className="footer__col-title">Soporte</div>
             <ul className="footer__links">
-              <li><a href="#">Centro de ayuda</a></li>
-              <li><a href="#">Estado del sistema</a></li>
-              <li><a href="#">API docs</a></li>
+              <li><a href="mailto:contacto@pos-comercio.cl">Centro de ayuda</a></li>
               <li><a href="mailto:contacto@pos-comercio.cl">contacto@pos-comercio.cl</a></li>
               <li>
                 <a href={REGISTER_URL} style={{ color: 'rgba(255,255,255,.5)', fontWeight: 600 }}>

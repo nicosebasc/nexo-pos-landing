@@ -39,20 +39,11 @@ export const metadata: Metadata = {
     title: 'Pos Comercio — Sistema POS para Comercios en Chile',
     description:
       'Centraliza ventas, inventario y reportes en una plataforma POS diseñada para el comercio chileno. Boleta electrónica, Transbank y MercadoPago incluidos.',
-    images: [
-      {
-        url: '/assets/icon-192x192.png',
-        width: 192,
-        height: 192,
-        alt: 'Pos Comercio — Sistema POS Chile',
-      },
-    ],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Pos Comercio — Sistema POS para Comercios en Chile',
     description: 'Centraliza ventas, inventario y reportes en una plataforma POS diseñada para el comercio chileno.',
-    images: ['/assets/icon-192x192.png'],
   },
   robots: {
     index: true,
@@ -95,10 +86,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es">
       <head>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
