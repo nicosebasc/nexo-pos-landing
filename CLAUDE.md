@@ -28,7 +28,7 @@ Next.js 15 App Router, React 19, TypeScript. Single-page marketing landing for "
 - Font: Poppins via `next/font/google`.
 
 **Environment variables** (see `.env.example`):
-- `NEXT_PUBLIC_APP_URL` — URL of the Angular frontend app (default: `https://front-pos-comercio.vercel.app`)
+- `NEXT_PUBLIC_APP_URL` — URL of the Angular frontend app (default: `https://https://www.sistema.pos-comercio.cl/login`)
 - `NEXT_PUBLIC_SITE_URL` — canonical URL of this landing (default: `https://nicosebasc.github.io/nexo-pos-landing`)
 
 **SEO:** Full metadata in `app/layout.tsx` (Open Graph, Twitter card, JSON-LD `SoftwareApplication` schema). `app/robots.ts` and `app/sitemap.ts` are Next.js route handlers.
