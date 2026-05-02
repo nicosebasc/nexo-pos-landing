@@ -1,5 +1,5 @@
 export const APP_URL =
-  process.env.NEXT_PUBLIC_APP_URL ?? 'https://www.sistema.pos-comercio.cl/login'
+  process.env.NEXT_PUBLIC_APP_URL ?? 'https://www.sistema.pos-comercio.cl'
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.pos-comercio.cl'
