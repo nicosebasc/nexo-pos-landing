@@ -29,21 +29,23 @@ export default function Faq() {
         </div>
         <div className="faq__grid">
           {faqs.map(({ q, a }, i) => (
-            <div key={q} className={`faq-item reveal ${i % 2 === 0 ? 'd1' : 'd2'}${open === i ? ' open' : ''}`}>
-              <button
-                id={`faq-btn-${i}`}
-                className="faq-q"
-                onClick={() => toggle(i)}
-                aria-expanded={open === i}
-                aria-controls={`faq-body-${i}`}
-              >
-                <span>{q}</span>
-                <span className="faq-icon" aria-hidden="true">
-                  <i className="bi bi-plus" />
-                </span>
-              </button>
-              <div id={`faq-body-${i}`} className="faq-body" role="region" aria-labelledby={`faq-btn-${i}`}>
-                {a}
+            <div key={q} className={`reveal ${i % 2 === 0 ? 'd1' : 'd2'}`}>
+              <div className={`faq-item${open === i ? ' open' : ''}`}>
+                <button
+                  id={`faq-btn-${i}`}
+                  className="faq-q"
+                  onClick={() => toggle(i)}
+                  aria-expanded={open === i}
+                  aria-controls={`faq-body-${i}`}
+                >
+                  <span>{q}</span>
+                  <span className="faq-icon" aria-hidden="true">
+                    <i className="bi bi-plus" />
+                  </span>
+                </button>
+                <div id={`faq-body-${i}`} className="faq-body" role="region" aria-labelledby={`faq-btn-${i}`}>
+                  {a}
+                </div>
               </div>
             </div>
           ))}

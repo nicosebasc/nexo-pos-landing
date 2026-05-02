@@ -556,7 +556,7 @@ img { display: block; max-width: 100%; }
   transition: max-height .35s ease, padding .2s;
   padding: 0 20px;
 }
-.faq-item.open .faq-body { max-height: 160px; padding: 0 20px 18px; }
+.faq-item.open .faq-body { max-height: 400px; padding: 0 20px 18px; }
 
 /* ════════════════════════════════════════════════════
    FINAL CTA
