@@ -19,10 +19,10 @@ export default function Footer() {
           <div>
             <div className="footer__col-title">Producto</div>
             <ul className="footer__links">
-              <li><a href="#beneficios">Funcionalidades</a></li>
-              <li><a href="#precios">Precios</a></li>
-              <li><a href="#comercios">Rubros</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><a href="/#beneficios">Funcionalidades</a></li>
+              <li><a href="/#precios">Precios</a></li>
+              <li><a href="/#comercios">Rubros</a></li>
+              <li><a href="/#faq">FAQ</a></li>
             </ul>
           </div>
           <div>

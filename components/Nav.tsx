@@ -5,19 +5,19 @@ export default function Nav() {
     <nav className="nav" id="mainNav" aria-label="Navegación principal">
       <div className="container">
         <div className="nav__inner">
-          <a href="#" className="nav__logo" aria-label="Pos Comercio inicio">
+          <a href="/" className="nav__logo" aria-label="Pos Comercio inicio">
             <div className="nav__logo-icon"><i className="bi bi-shop" aria-hidden="true" /></div>
             Pos Comercio
           </a>
           <ul className="nav__links">
-            <li><a href="#beneficios">Beneficios</a></li>
-            <li><a href="#como-funciona">Cómo funciona</a></li>
-            <li><a href="#comercios">Comercios</a></li>
-            <li><a href="#precios">Precios</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="/#beneficios">Beneficios</a></li>
+            <li><a href="/#como-funciona">Cómo funciona</a></li>
+            <li><a href="/#comercios">Comercios</a></li>
+            <li><a href="/#precios">Precios</a></li>
+            <li><a href="/#faq">FAQ</a></li>
           </ul>
           <div className="nav__actions">
-            <a href="#precios" className="btn btn-outline-white" style={{ fontSize: '13px', padding: '.5rem 1.1rem' }}>
+            <a href="/#precios" className="btn btn-outline-white" style={{ fontSize: '13px', padding: '.5rem 1.1rem' }}>
               Ver planes
             </a>
             <a href={LOGIN_URL} className="btn btn-outline-white" style={{ fontSize: '13px', padding: '.5rem 1.1rem' }}>
@@ -36,11 +36,11 @@ export default function Nav() {
       </div>
       <div className="nav__drawer" id="navDrawer" aria-hidden="true">
         <ul className="nav__drawer-links">
-          <li><a href="#beneficios">Beneficios</a></li>
-          <li><a href="#como-funciona">Cómo funciona</a></li>
-          <li><a href="#comercios">Comercios</a></li>
-          <li><a href="#precios">Precios</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="/#beneficios">Beneficios</a></li>
+          <li><a href="/#como-funciona">Cómo funciona</a></li>
+          <li><a href="/#comercios">Comercios</a></li>
+          <li><a href="/#precios">Precios</a></li>
+          <li><a href="/#faq">FAQ</a></li>
         </ul>
         <div className="nav__drawer-actions">
           <a href={LOGIN_URL} className="btn btn-outline-white" style={{ width: '100%', justifyContent: 'center' }}>
